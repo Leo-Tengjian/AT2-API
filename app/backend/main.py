@@ -11,9 +11,9 @@ from sklearn.preprocessing import LabelEncoder
 
 app = FastAPI()
 
-xgb_model = joblib.load('/app/models/xgboost_model.pkl')
-prophet_model = joblib.load('/app/models/prophet_model.pkl')
-label_encoders = joblib.load('/app/models/label_encoders.joblib')
+xgb_model = joblib.load('models/xgboost_model.pkl')
+prophet_model = joblib.load('models/prophet_model.pkl')
+label_encoders = joblib.load('models/label_encoders.joblib')
 
 @app.get("/", response_class=JSONResponse)
 async def read_main():
