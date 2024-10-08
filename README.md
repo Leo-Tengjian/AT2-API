@@ -12,12 +12,12 @@ The application is containerized using Docker, allowing easy deployment and cons
 ## Project Structure
 .
 ├── app
-│   ├── backend
-│   │   ├── main.py          # FastAPI backend code
-│   │   ├── dockerfile        
-│   ├── frontend
-│   │   ├── main.py          # Streamlit frontend code
-│   └── ——— dockerfile 
+│    ├── backend
+│    │   ├── main.py          # FastAPI backend code
+│    │   ├── dockerfile        
+│    ├── frontend
+│    │   ├── main.py          # Streamlit frontend code
+│    └── ——— dockerfile 
 │   
 ├── docker-compose.yml        # Docker Compose configuration
 ├── requirements.txt          # Python dependencies
